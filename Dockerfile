@@ -15,7 +15,7 @@ RUN curl http://nginx.org/keys/nginx_signing.key | apt-key add - && \
     procps \
     wget \
     bzip2 \
-    gettext-base && \
+    gettext-base \
     libfreetype6-dev \
     libjpeg62-turbo-dev \
     libmcrypt-dev \
